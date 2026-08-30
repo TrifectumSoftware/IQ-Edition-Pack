@@ -1,0 +1,18 @@
+﻿### Mod updates
+
+- **BetterQuesting-3.8.78-GTNH.jar** -> **BetterQuesting-3.8.79-GTNH.jar** (3.8.79-GTNH)
+- **chisel-2.17.31-GTNH.jar** -> **chisel-2.17.32-GTNH-dev-preshadow.jar** (2.17.32-GTNH)
+- **adventurebackpack-1.4.23-GTNH.jar** -> **adventurebackpack-1.4.24-GTNH.jar** (1.4.24-GTNH)
+- **appliedenergistics2-rv3-beta-1033-GTNH.jar** -> **appliedenergistics2-rv3-beta-1036-GTNH.jar** (rv3-beta-1036-GTNH)
+- **chromatictooltips-1.0.34-GTNH.jar** -> **chromatictooltips-1.0.35-GTNH.jar** (1.0.35-GTNH)
+- **NotEnoughItems-2.8.125-GTNH.jar** -> **NotEnoughItems-2.8.125-GTNH-dev-preshadow.jar** (2.8.125-GTNH)
+- **OpenBlocks-1.12.20-GTNH.jar** -> **OpenBlocks-1.12.20-GTNH-api-predowngrade.jar** (1.12.20-GTNH)
+- **OpenComputers-1.12.55-GTNH.jar** -> **OpenComputers-1.12.55-GTNH-dev-preshadow.jar** (1.12.55-GTNH)
+- **hodgepodge-2.7.188.jar** -> **hodgepodge-2.7.190-dev-preshadow.jar** (2.7.190)
+- **findit-1.4.4.jar** -> **findit-1.4.6.jar** (1.4.6)
+- **Opis-1.4.12-mapless.jar** -> **Opis-1.4.12-mapless-dev-preshadow.jar** (1.4.12-mapless)
+- **wdmla-2.8.2.jar** -> **wdmla-2.8.2-dev-preshadow.jar** (2.8.2)
+- **etfuturum-2.6.54-GTNH.jar** -> **etfuturum-2.6.55-GTNH-dev-preshadow.jar** (2.6.55-GTNH)
+- **littletiles-1.6.41-GTNH.jar** -> **littletiles-1.6.43-dev-preshadow.jar** (1.6.43)
+- **itlt-1.7.10-1.0.4.jar** -> **itlt-1.7.10-1.0.4.jar** (1.0.4)
+- **ArchitectureCraft-1.12.16.jar** -> **ArchitectureCraft-1.12.17.jar** (1.12.17)

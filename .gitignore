@@ -10,6 +10,7 @@
 !scripts/*
 !resourcepacks/*
 !server-resource-packs/*
+!pack-tools/*
 !.github/*
 
 config/mobsinfo/*.cache
