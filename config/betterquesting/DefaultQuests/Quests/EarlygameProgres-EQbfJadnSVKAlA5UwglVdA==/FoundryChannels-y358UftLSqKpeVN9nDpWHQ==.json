@@ -1,0 +1,100 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4431733264610278515,
+      "questIDLow:4": -7301190840998653777
+    },
+    "1:10": {
+      "questIDHigh:4": -7925709003751927890,
+      "questIDLow:4": -8023614385073690123
+    },
+    "2:10": {
+      "questIDHigh:4": -6647108779429116951,
+      "questIDLow:4": -4916574586510435002
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§6Foundry Channels §rare blocks that allow molten materials to be poured into them from either Foundry Outlets or metallurgy-based machines, like the Crucible and Electrolyser.\n\nFoundry channels can only hold one type of metal at a time, Right-Clicking one of these blocks with a shovel will output a Scrap item of whatever material was inside the channel at the time.\n\n\nBesides that, there are also §cOutlets§r, which output molten material. These come in two types:\n\n§6Foundry outlets§r, which are used to drop material down to lower foundry channels, into foundry basins, or into storage basins. These outlets can be disabled with a redstone signal, and by right-clicking on them that behavior can be inverted (needs redstone to be enabled). They can also be filtered to only drain certain materials by using foundry scraps of the given material, and said filter can be cleared with a screwdriver or turned into a blacklist with a hand drill (both actions require a sneak+right-click).\n\n§6Foundry spill outlets§r, which are almost identical to foundry outlets, except that they can also be placed over empty space, allowing slag and other waste products to be spilled into the world without the need for a basin. Spilled materials are not hot and will expand if large enough, unless they are surrounded from all sides by other blocks.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.foundry_channel"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Foundry Channels",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3783449945394427230,
+  "questIDLow:4": -6234860410160654819,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.foundry_channel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.foundry_outlet"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.foundry_slagtap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

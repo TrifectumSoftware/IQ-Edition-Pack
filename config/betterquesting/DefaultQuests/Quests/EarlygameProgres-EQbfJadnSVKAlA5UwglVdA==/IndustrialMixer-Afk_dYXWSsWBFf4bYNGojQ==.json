@@ -1,0 +1,80 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3666505665497023273,
+      "questIDLow:4": -5805753387770777335
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "The§b Industrial Mixer§r is an electrical machine that allows you to mix fluids and items together. It has 2 tanks and 1 item slot for input, and 1 tank for fluid output.\n\nIts recipe can be changed by putting a§6 Fluid Identifier §rin the output slot. It also has a separate button on the top, allowing you to choose between multiple methods of producing the same output.\n\nSome of these are:\n\n§6Fracking Solution§r, where it has one with water, petroleum gas and sulfur and another one with sulfuric acid and petroleum gas§r.\n\r\n§6Biofue§r§6l§r, where it has recipes with wood oil and fish oil and another one with wood oil and sunflower seed oil.\r\n\n§6Nitroglyceri§r§6n§r, where it has recipes with nitric acid and petroleum gas and another one with nitric acid and fish oil.\r\n\n§6Oxyhydroge§r§6n§r, where it has recipes with liquid hydrogen with liquid oxygen and another one with just liquid hydrogen.\r\n\n§6Engine Lubrican§r§6t§r, where it has recipes with ethanol and sunflower seed oil; ethanol with fish oil; and heating oil with unsaturated hydrocarbons.\r\n\n§6Solven§r§6t§r, where it has recipes with aromatic hydrocarbons and each of the 4 types of naphtha.§r§r§r",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.machine_mixer"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Industrial Mixer",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 142214637228018373,
+  "questIDLow:4": -9145124074763999091,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.machine_mixer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

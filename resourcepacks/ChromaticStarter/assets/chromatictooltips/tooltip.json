@@ -1,0 +1,188 @@
+{
+    "styles": [
+        {
+            "context": "default",
+            "margin": 3,
+            "padding": 6,
+            "offsetMain": 6,
+            "offsetCross": -18,
+            "defaultColor": "0xFFB6FFB6",
+            "font": {
+                "shadow": true
+            },
+            "title": {
+                "defaultColor": "0xFF66FF66"
+            },
+            "decorators": [
+                {
+                    "type": "background",
+                    "color": "0xF0050F05",
+                    "corner": false
+                },
+                {
+                    "type": "border",
+                    "color": "0xFF33FF33",
+                    "thickness": 1,
+                    "corner": true,
+                    "margin": 1
+                }
+            ],
+            "transform": {
+                "duration": 150,
+                "function": "easeOut",
+                "keyframes": [
+                    { "progress": 0, "scale": 0.98 },
+                    { "progress": 100, "scale": 1.0 }
+                ]
+            }
+        },
+        {
+            "context": "item",
+            "filter": "rarity:uncommon",
+            "margin": 3,
+            "padding": 6,
+            "offsetMain": 6,
+            "offsetCross": -18,
+            "defaultColor": "0xFFB6FFB6",
+            "font": {
+                "shadow": true
+            },
+            "title": {
+                "defaultColor": "0xFF88FF88"
+            },
+            "decorators": [
+                {
+                    "type": "background",
+                    "color": "0xF0050F05",
+                    "corner": false
+                },
+                {
+                    "type": "border",
+                    "color": "0xFF66FF66",
+                    "thickness": 1,
+                    "corner": true,
+                    "margin": 1
+                }
+            ],
+            "transform": {
+                "duration": 150,
+                "function": "easeOut",
+                "keyframes": [
+                    { "progress": 0, "scale": 0.98 },
+                    { "progress": 100, "scale": 1.0 }
+                ]
+            }
+        },
+        {
+            "context": "item",
+            "filter": "rarity:rare",
+            "margin": 3,
+            "padding": 6,
+            "offsetMain": 6,
+            "offsetCross": -18,
+            "defaultColor": "0xFFB6FFB6",
+            "font": {
+                "shadow": true
+            },
+            "title": {
+                "defaultColor": "0xFFAAFFAA"
+            },
+            "decorators": [
+                {
+                    "type": "background",
+                    "color": "0xF0050F05",
+                    "corner": false
+                },
+                {
+                    "type": "border",
+                    "color": "0xFF99FF99",
+                    "thickness": 1,
+                    "corner": true,
+                    "margin": 1
+                }
+            ],
+            "transform": {
+                "duration": 150,
+                "function": "easeOut",
+                "keyframes": [
+                    { "progress": 0, "scale": 0.98 },
+                    { "progress": 100, "scale": 1.0 }
+                ]
+            }
+        },
+        {
+            "context": "item",
+            "filter": "rarity:epic",
+            "margin": 3,
+            "padding": 6,
+            "offsetMain": 6,
+            "offsetCross": -18,
+            "defaultColor": "0xFFB6FFB6",
+            "font": {
+                "shadow": true
+            },
+            "title": {
+                "defaultColor": "0xFFCCFFCC"
+            },
+            "decorators": [
+                {
+                    "type": "background",
+                    "color": "0xF0050F05",
+                    "corner": false
+                },
+                {
+                    "type": "border",
+                    "color": "0xFF66FF99",
+                    "thickness": 2,
+                    "corner": true,
+                    "margin": 1
+                }
+            ],
+            "transform": {
+                "duration": 150,
+                "function": "easeOut",
+                "keyframes": [
+                    { "progress": 0, "scale": 0.98 },
+                    { "progress": 100, "scale": 1.0 }
+                ]
+            }
+        },
+        {
+            "context": "item",
+            "filter": "rarity:legendary",
+            "margin": 3,
+            "padding": 6,
+            "offsetMain": 6,
+            "offsetCross": -18,
+            "defaultColor": "0xFFD6FFD6",
+            "font": {
+                "shadow": true
+            },
+            "title": {
+                "defaultColor": "0xFFFFFFFF"
+            },
+            "decorators": [
+                {
+                    "type": "background",
+                    "color": "0xF0050F05",
+                    "corner": false
+                },
+                {
+                    "type": "border",
+                    "color": "0xFFCCFFCC",
+                    "thickness": 2,
+                    "corner": true,
+                    "margin": 1
+                }
+            ],
+            "transform": {
+                "duration": 150,
+                "function": "easeOut",
+                "keyframes": [
+                    { "progress": 0, "scale": 0.98 },
+                    { "progress": 100, "scale": 1.0 }
+                ]
+            }
+        }
+    ]
+}

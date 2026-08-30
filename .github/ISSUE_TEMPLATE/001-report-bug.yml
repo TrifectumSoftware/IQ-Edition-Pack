@@ -1,0 +1,37 @@
+name: Report a bug
+description: Something in the pack does not work as expected
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Include the latest client log from `logs/latest.log` if relevant.
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: A clear description of what is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: List the steps to reproduce the bug.
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: Relevant log
+      placeholder: Paste relevant log lines or a mclo.gs link.
+    validations:
+      required: false

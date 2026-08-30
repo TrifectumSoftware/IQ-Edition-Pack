@@ -1,0 +1,48 @@
+{
+  "recipes": [
+    {
+      "name": "sludge.natcrete",
+      "inputFluid": [
+        ["NATCRETE",2000]
+      ],
+      "outputFluid": [
+        ["CONCRETE",1000],
+        ["BUURCRETE",500],
+        ["SCRAPCRETE",500],
+        ["LAVA",500]
+      ],
+      "duration": 100,
+      "power": 10000,
+      "nameWrapper": "sludge.natcrete"
+    },
+    {
+      "name": "sludge.buurmium",
+      "inputFluid": [
+        ["BUURCRETE",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_diffused_buurmium"]]
+      ],
+      "outputFluid": [
+        ["CONCRETE",4000]
+      ],
+      "duration": 100,
+      "power": 20000
+    },
+    {
+      "name": "sludge.concrete_recycling",
+      "inputFluid": [
+        ["CONCRETE",16000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_cement"]]
+      ],
+      "outputFluid": [
+        ["WATER",2000]
+      ],
+      "duration": 40,
+      "power": 5000,
+      "nameWrapper": "sludge.concrete_recycling"
+    }
+  ]
+}

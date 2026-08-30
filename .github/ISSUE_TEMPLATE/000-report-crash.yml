@@ -1,0 +1,44 @@
+name: Report a crash
+description: The game crashed or failed to start
+title: "[Crash] "
+labels: [crash]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Upload the full crash report to a paste site such as https://mclo.gs and include the link below.
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: e.g. 1.7.10
+    validations:
+      required: true
+  - type: input
+    id: log-link
+    attributes:
+      label: Crash report link
+      placeholder: https://mclo.gs/...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      placeholder: Describe what you were doing when the crash occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: List the steps that trigger the crash.
+    validations:
+      required: false

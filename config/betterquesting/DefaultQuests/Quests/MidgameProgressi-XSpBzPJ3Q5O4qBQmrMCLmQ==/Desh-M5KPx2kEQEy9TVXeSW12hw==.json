@@ -1,0 +1,84 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5731674558739597875,
+      "questIDLow:4": -9041524825303398125
+    },
+    "1:10": {
+      "questIDHigh:4": 3414720410858898638,
+      "questIDLow:4": -8242781944347734645
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§cDesh§r is a mid-game material created from Mercury and Rare Earth.\n§r\nIt is incredibly tough, and able to create various unbreakable replacements for things like §eShredder Blades§r or §eStamps§r. It is also able to create §bunbreakable §rtools, however they are usually of a low Mining Level and are quite slow.\n\nIt is also used in various progression items, like the §dDesh Anvil§r or §cthe Cracking Tower§r.\n\n§6Desh Blend§r is a separate item that is used to craft§c Desh§r, you can get it in abundance by §eShredding§r or §eCentrifuging§r Rare Earth ore. You can also get it from combining various §aRare Earth Metals§r together.\n\nYou can get it via 3 methods:\n\n- in a§e Chemplant§r with Light Oil (or Cracked Light Oil) and Mercury, alongside Desh Blend.\n- Crafting Desh Blend with Coal Dust and Mercury Droplets to get Deshready, which can then be processed in an §6Acidizer§r to get the ingots.\n- In a §9Rotary Furnace§r, using Deshready and Light Oil.\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "ingotDesh",
+        "id:8": "hbm:item.ingot_desh"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Desh",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3716190729157230668,
+  "questIDLow:4": -4806090814131439993,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ingot_desh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "recipes": [
+    {
+      "name": "haemodialysis.martyr",
+      "inputFluid": [
+        ["BLOOD_OF_THE_MARTYR",1000],
+        ["HEPARIN",250],
+        ["DIALYSATE",250]
+      ],
+      "outputFluid": [
+        ["HAEMOGLOBIN",3000],
+        ["AMBROSIA",2000]
+      ],
+      "duration": 200,
+      "power": 1000
+    },
+    {
+      "name": "haemodialysis.curdling",
+      "inputFluid": [
+        ["CURDLING_BLOOD",1000],
+        ["HEPARIN",250],
+        ["DIALYSATE",250]
+      ],
+      "outputFluid": [
+        ["WORMWOOD",3000],
+        ["MORNINGSTARS_FIRE",1000]
+      ],
+      "duration": 200,
+      "power": 1000
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+name: Request a feature
+description: Suggest a change or new feature for the pack
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      placeholder: A clear description of what you want to add or change.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why it is useful
+      placeholder: Explain why this change would improve the pack.
+    validations:
+      required: false

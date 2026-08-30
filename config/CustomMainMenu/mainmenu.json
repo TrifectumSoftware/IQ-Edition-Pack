@@ -1,0 +1,166 @@
+{
+    "alignments":  {
+                       "left_stack":  {
+                                          "factorWidth":  0.0,
+                                          "factorHeight":  0.5
+                                      },
+                       "left_panel":  {
+                                          "factorWidth":  0.0,
+                                          "factorHeight":  0.0
+                                      },
+                       "bottom_left_stack":  {
+                                                 "factorWidth":  0.0,
+                                                 "factorHeight":  1.0
+                                             }
+                   },
+    "images":  {
+                   "button_panel":  {
+                                        "image":  "mainmenu:textures/gui/button_panel.png",
+                                        "posX":  20,
+                                        "posY":  0,
+                                        "width":  220,
+                                        "height":  2000,
+                                        "alignment":  "left_panel"
+                                    },
+                   "title":  {
+                                 "image":  "mainmenu:textures/logo.png",
+                                 "posX":  -200,
+                                 "posY":  15,
+                                 "width":  180,
+                                 "height":  78,
+                                 "alignment":  "top_right"
+                             }
+               },
+    "buttons":  {
+                    "singleplayer":  {
+                                         "text":  "menu.singleplayer",
+                                         "posX":  45,
+                                         "posY":  -115,
+                                         "width":  170,
+                                         "height":  20,
+                                         "alignment":  "left_stack",
+                                         "normalTextColor":  3407667,
+                                         "hoverTextColor":  65345,
+                                         "action":  {
+                                                        "type":  "openGui",
+                                                        "gui":  "singleplayer"
+                                                    }
+                                     },
+                    "multiplayer":  {
+                                        "text":  "menu.multiplayer",
+                                        "posX":  45,
+                                        "posY":  -85,
+                                        "width":  170,
+                                        "height":  20,
+                                        "alignment":  "left_stack",
+                                        "normalTextColor":  3407667,
+                                        "hoverTextColor":  65345,
+                                        "action":  {
+                                                       "type":  "openGui",
+                                                       "gui":  "multiplayer"
+                                                   }
+                                    },
+                    "mods":  {
+                                 "text":  "Mods",
+                                 "posX":  45,
+                                 "posY":  -55,
+                                 "width":  170,
+                                 "height":  20,
+                                 "alignment":  "left_stack",
+                                 "normalTextColor":  3407667,
+                                 "hoverTextColor":  65345,
+                                 "action":  {
+                                                "type":  "openGui",
+                                                "gui":  "mods"
+                                            }
+                             },
+                    "options":  {
+                                    "text":  "menu.options",
+                                    "posX":  45,
+                                    "posY":  -25,
+                                    "width":  170,
+                                    "height":  20,
+                                    "alignment":  "left_stack",
+                                    "normalTextColor":  3407667,
+                                    "hoverTextColor":  65345,
+                                    "action":  {
+                                                   "type":  "openGui",
+                                                   "gui":  "options"
+                                               }
+                                },
+                    "quit":  {
+                                 "text":  "menu.quit",
+                                 "posX":  45,
+                                 "posY":  5,
+                                 "width":  170,
+                                 "height":  20,
+                                 "alignment":  "left_stack",
+                                 "normalTextColor":  3407667,
+                                 "hoverTextColor":  65345,
+                                 "action":  {
+                                                "type":  "quit"
+                                            }
+                             },
+                    "github":  {
+                                   "text":  "GitHub",
+                                   "posX":  45,
+                                   "posY":  35,
+                                   "width":  170,
+                                   "height":  20,
+                                   "alignment":  "left_stack",
+                                   "normalTextColor":  3407667,
+                                   "hoverTextColor":  65345,
+                                   "action":  {
+                                                  "type":  "openLink",
+                                                  "link":  "https://github.com/TrifectumSoftware"
+                                              }
+                               }
+                },
+    "texts":  {
+                  "credit_addr":  {
+                                      "text":  "Address Unknown by The Ink Spots",
+                                      "posX":  45,
+                                      "posY":  -50,
+                                      "color":  3407667,
+                                      "alignment":  "bottom_left_stack",
+                                      "scale":  0.5
+                                  },
+                  "credit_maybe":  {
+                                       "text":  "Maybe by The Ink Spots",
+                                       "posX":  45,
+                                       "posY":  -38,
+                                       "color":  3407667,
+                                       "alignment":  "bottom_left_stack",
+                                       "scale":  0.5
+                                   },
+                  "credit_wethree":  {
+                                         "text":  "We Three by The Ink Spots",
+                                         "posX":  45,
+                                         "posY":  -26,
+                                         "color":  3407667,
+                                         "alignment":  "bottom_left_stack",
+                                         "scale":  0.5
+                                     },
+                  "modpack_by":  {
+                                     "text":  "Modpack by TrifectumSoftware",
+                                     "posX":  45,
+                                     "posY":  -14,
+                                     "color":  3407667,
+                                     "alignment":  "bottom_left_stack",
+                                     "scale":  0.5
+                                 }
+              },
+    "other":  {
+                  "background":  {
+                                     "image":  "",
+                                     "slideshow":  {
+                                                       "images":  [
+                                                                      "mainmenu:textures/slide1.png",
+                                                                      "mainmenu:textures/slide2.png"
+                                                                  ],
+                                                       "displayDuration":  200,
+                                                       "fadeDuration":  40
+                                                   }
+                                 }
+              }
+}

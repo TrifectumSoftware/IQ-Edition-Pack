@@ -1,0 +1,66 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 6306137373749366452,
+      "questIDLow:4": -6606808577063947576
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "NTM Has various modes that change the game, you can enable \u0027em in the [warn]config/hbm.cfg[/warn] file.\n\n\n§f§eExpensive Mode:§f It makes everything more expensive, and it forces you to setup more automation, with more crafting intermediates. §r\n\r\n§a528 Mod§r§ae:§f It gates progression similar to Factorio researches using an Annihilator. All AE2 Blocks explode when used, and a bunch of recipes are now luck-based. \n\n§4§f§4\r\nRampant Mode: §r§rThis mode makes Glyphids much stronger, more responsive to pollution, and also enables Scouts, allowing them to spread on their own.\n[warn]\nNOTE: In IQ Edition, this is even more dangerous in the Nether, as Nether Glyphids are by default much stronger than overworld glyphids, with some being resistant to fire or projectiles, and they respond to pollution 2x as fast.[/warn]\r§r\n\n\u0026q\r\n\r328 Mode:§f 328 Mode combines ALL of the above modes, making your experience alot harder.\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:compass"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "NTM Modes",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6655307627536103035,
+  "questIDLow:4": -7952620034526715949,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

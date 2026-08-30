@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="middleleft">
+        <line>
+            <str>{pingicon}{green}{username} {white}FPS: </str>
+            <op>
+                <str>ge</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>0</num>
+                <str>{green}</str>
+                <str>{darkgreen}</str>
+                <str>{yellow}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <var>fps</var>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> Day {green}{day} {white}Time: {green}{mctime12} </str>
+            <if>
+                <var>daytime</var>
+                <str>{green}(day)</str>
+                <str>{darkgray}(night)</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:compass</str>
+            </icon>
+            <str> {green}{xi}{white}, {green}{yi}{white}, {green}{zi} {white}Facing {green}{finedirection}</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:sapling</str>
+            </icon>
+            <str> {green}{biome} {white}Dim: {green}{dimensionid}</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:skull</str>
+            </icon>
+            <str> Entities: {green}{entitiesrendered}{white}/{green}{entitiestotal} {white}Chunks: {green}{loadedchunks}</str>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{green}{potionduration0} {potionicon0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{green}{potionduration1} {potionicon1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{green}{potionduration2} {potionicon2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{green}{potionduration3} {potionicon3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{green}{potionduration4} {potionicon4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{green}{potionduration5} {potionicon5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{green}{potionduration6} {potionicon6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{green}{potionduration7} {potionicon7}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+</config>

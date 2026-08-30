@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroups>
+    <LootGroup GroupMetaID="0" GroupName="Generic" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="false">
+        <Loot Identifier="1" ItemName="hbm:item.ingot_steel" Amount="4" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="2" ItemName="hbm:item.ingot_red_copper" Amount="4" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="3" ItemName="hbm:item.ingot_lead" Amount="2" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="4" ItemName="hbm:item.ingot_aluminium" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="5" ItemName="hbm:item.ingot_zinc" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="7" ItemName="hbm:item.canned_conserve:0" Amount="2" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8" ItemName="hbm:item.canned_conserve:1" Amount="2" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9" ItemName="hbm:item.canned_conserve:10" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="10" ItemName="hbm:item.ammo_standard:0" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="11" ItemName="hbm:item.ammo_standard:1" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="12" ItemName="hbm:item.ammo_standard:2" Amount="4" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="10" GroupName="Earlygame Lootcrate" Rarity="0" MinItems="2" MaxItems="4" CombineTrashGroup="true" LootbagIcon="enhancedlootbags:loot_earlygame">
+        <Loot Identifier="100" ItemName="hbm:item.ingot_steel" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="101" ItemName="hbm:item.ingot_red_copper" Amount="8" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="102" ItemName="hbm:item.ingot_copper" Amount="6" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="103" ItemName="hbm:item.ingot_lead" Amount="4" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="104" ItemName="hbm:item.ingot_aluminium" Amount="4" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="110" ItemName="hbm:item.canned_conserve:0" Amount="4" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="111" ItemName="hbm:item.canned_conserve:1" Amount="4" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="112" ItemName="hbm:item.canned_conserve:2" Amount="3" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="113" ItemName="hbm:item.canned_conserve:5" Amount="3" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="114" ItemName="hbm:item.canned_conserve:10" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="120" ItemName="hbm:item.gun_pepperbox" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="121" ItemName="hbm:item.gun_light_revolver" Amount="1" NBTTag="" Chance="12" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="122" ItemName="hbm:item.gun_henry" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="123" ItemName="hbm:item.gun_greasegun" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="124" ItemName="hbm:item.gun_flaregun" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="130" ItemName="hbm:item.ammo_standard:0" Amount="16" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="131" ItemName="hbm:item.ammo_standard:3" Amount="12" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="132" ItemName="hbm:item.ammo_standard:4" Amount="8" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="133" ItemName="hbm:item.ammo_standard:5" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="134" ItemName="hbm:item.ammo_bag" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="140" ItemName="hbm:item.nitra" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="141" ItemName="hbm:item.ingot_graphite" Amount="4" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="142" ItemName="hbm:item.circuit:0" Amount="2" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="143" ItemName="hbm:item.circuit:1" Amount="2" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="20" GroupName="Midgame Lootcrate" Rarity="1" MinItems="2" MaxItems="5" CombineTrashGroup="true" LootbagIcon="enhancedlootbags:loot_midgame">
+        <Loot Identifier="200" ItemName="hbm:item.ingot_dura_steel" Amount="6" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="201" ItemName="hbm:item.ingot_tungsten" Amount="3" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="202" ItemName="hbm:item.ingot_titanium" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="204" ItemName="hbm:item.ingot_desh" Amount="2" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="205" ItemName="hbm:item.ingot_starmetal:0" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+        <Loot Identifier="206" ItemName="hbm:item.ingot_meteorite" Amount="2" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="207" ItemName="hbm:item.ingot_meteorite_forged" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="220" ItemName="hbm:item.circuit:8" Amount="2" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="221" ItemName="hbm:item.circuit:9" Amount="2" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="222" ItemName="hbm:item.circuit:6" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="223" ItemName="hbm:item.circuit:10" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="226" ItemName="hbm:item.circuit:13" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="230" ItemName="hbm:item.gun_carbine" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="231" ItemName="hbm:item.gun_uzi" Amount="1" NBTTag="" Chance="7" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="232" ItemName="hbm:item.gun_spas12" Amount="1" NBTTag="" Chance="6" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="233" ItemName="hbm:item.gun_heavy_revolver" Amount="1" NBTTag="" Chance="7" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="234" ItemName="hbm:item.gun_g3" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="235" ItemName="hbm:item.gun_star_f" Amount="1" NBTTag="" Chance="6" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="236" ItemName="hbm:item.gun_am180" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="237" ItemName="hbm:item.gun_flamer" Amount="1" NBTTag="" Chance="4" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="238" ItemName="hbm:item.gun_liberator" Amount="1" NBTTag="" Chance="4" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="239" ItemName="hbm:item.gun_maresleg" Amount="1" NBTTag="" Chance="6" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="240" ItemName="hbm:item.ammo_standard:6" Amount="12" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="241" ItemName="hbm:item.ammo_standard:7" Amount="12" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="242" ItemName="hbm:item.ammo_standard:8" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="243" ItemName="hbm:item.ammo_standard:9" Amount="8" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="244" ItemName="hbm:item.ammo_standard:12" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="245" ItemName="hbm:item.ammo_standard:13" Amount="8" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="246" ItemName="hbm:item.ammo_standard:14" Amount="6" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="247" ItemName="hbm:item.ammo_bag" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="250" ItemName="hbm:item.nitra" Amount="12" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="251" ItemName="hbm:item.nitra_small" Amount="24" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="252" ItemName="hbm:item.ingot_graphite" Amount="6" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="253" ItemName="hbm:item.ingot_cobalt" Amount="2" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="254" ItemName="hbm:item.nugget_desh" Amount="4" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="270" ItemName="hbm:item.meteorite_pickaxe" Amount="1" NBTTag="" Chance="4" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="271" ItemName="hbm:item.meteorite_sword" Amount="1" NBTTag="" Chance="4" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="272" ItemName="hbm:item.meteorite_axe" Amount="1" NBTTag="" Chance="3" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+    </LootGroup>
+</LootGroups>

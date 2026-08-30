@@ -1,0 +1,80 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4980521989843760483,
+      "questIDLow:4": -6962238837812656449
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "The§6 Combined Cycle Gas Turbine§r or §6CCGT§r for short is an electricity-generating machine primarily meant for burning Gases, especially §bPetroleum Gas§r.\n\nThe CCGT burns gases at §e100%§r efficiency, and is the only machine to do so. Besides fuel, it also needs a constant supply of §eEngine Lubricant§r, automatable via various methods.\n\nThe CCGT also has an §eAUTO§r button, which allows you to automatically throttle it based on how much energy is in its buffer. Hence, if it is full of energy, it does not waste as much fuel. If it is fully empty, it will run on full power. You can also override this by sliding the handle up, increasing the throttle regardless of the buffer.\n\nIt also is able to take in §9Water§r, as the turbine also produces an internal buffer of §eHeat§r as a byproduct of burning fuel. It is able to heat this water into §eDense Steam§r, producing extra energy if you route it into §eTurbines§r.\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.machine_turbinegas"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Combined Cycle Gas Turbine (CCGT)",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1093126008316081964,
+  "questIDLow:4": -8784514803528443800,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.machine_turbinegas"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

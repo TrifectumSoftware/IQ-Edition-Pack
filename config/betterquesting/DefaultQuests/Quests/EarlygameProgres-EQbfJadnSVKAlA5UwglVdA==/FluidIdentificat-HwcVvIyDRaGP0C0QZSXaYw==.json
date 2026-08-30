@@ -1,0 +1,86 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4235120090855591116,
+      "questIDLow:4": -8959283559059511978
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "NTM, unlike other tech mods, has a special fluid system of its own. This fluid system has a few core principles:\n\n1) Fluids need to be §6assigned §rto containers, pipes, and machines. What this means is that a fluid cannot automatically enter a pipe network or a container, the container needs to be §6ASSIGNED§r to the respective fluid before it can enter the tank.\n\n2) Fluid pipes of any kind have §6no throughput limit§f and can pass fluid between them instantaneously. §6\n\nNOTE§r: Tanks may have a throughput limit, but it scales on how much fluid is inside them.\n\nTo assign fluids, you\u0027ll need the§b Fluid Identifier§r.§6 Sneak right click§r to assign a fluid to a tank (or place it in the identifier slot) And§6 right click§r it to customize which fluid it is currently able to assign.\u0026q\n\nFun Fact§r: In older versions of NTM you had to craft each individual fluid ID.. yikes.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "hbm:item.fluid_identifier_multi",
+        "tag:10": {
+          "fluid1:3": 1
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Fluid Identification",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2235779639568188833,
+  "questIDLow:4": -8083911782690334109,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "hbm:item.fluid_identifier_multi",
+          "tag:10": {
+            "fluid1:3": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

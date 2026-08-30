@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Midgame Progression, involving Oil and early Nuclear.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.concrete_colored_ext"
+      },
+      "name:8": "Midgame Progression",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": 6713250543046181779,
+  "questLineIDLow:4": -5140836818303808615
+}

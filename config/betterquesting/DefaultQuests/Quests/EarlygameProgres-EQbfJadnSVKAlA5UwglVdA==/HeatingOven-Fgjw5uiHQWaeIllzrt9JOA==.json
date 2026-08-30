@@ -1,0 +1,102 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3213207456588805728,
+      "questIDLow:4": -4804350257572019598
+    },
+    "1:10": {
+      "questIDHigh:4": 8279602819207613109,
+      "questIDLow:4": -5869551683172508440
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "The§6 Heating Oven§r, §9Firebox§r, §aFluid Burner §rand §bElectric Heater§r are a set of Heat Providing §rblocks, that, when placed underneath certain Heat-Requiring machines, will power them with Heat, i.e §bTU§r. TU is explained better in the quest, [quest]Hot Hot Hot![/quest].\n\nThe§9 §6Firebox§r§r and §6Heating Oven§r are the solid fuel providers.\n\n\nThe§6 Firebox§r burns fuels with full efficiency, but much slower.\n\nThe§r §c§6Heating Oven§r §rburns fuel for §45x§r as much heat but§e §6§e8x§r§r§r less duration.\n§r\nHeating Ovens can also be stacked on top of each other to compound their heat outputs, but their heat output is cut in half when doing this.\n\nThe §c§aFluid Burner§r§r and§e §bElectric Heater§r §ruse §d§fFluids§r§r (like Wood Oil, Heating Oil) and§b HE§r respectively, and their Heat throughput can be adjusted with a §cScrewdriver§r.\n\n[warn]NOTE:[/warn] The Electric Heater is not unlocked until much later in progression.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.heater_oven"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Heating Oven",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1587783743182422374,
+  "questIDLow:4": -7051975713118795464,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.heater_oven"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.heater_firebox"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.heater_oilburner"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.heater_electric"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

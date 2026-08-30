@@ -1,0 +1,80 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8670076805836786601,
+      "questIDLow:4": -4764780922865084979
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§6§lHBM\u0027s Nuclear Tech Mod§r is a large, multi-faceted tech mod for Minecraft 1.7.10\nfocusing on everything from exploration, lore, technology, weaponry, nuclear science, and more.§l §6§lNTM: Space§r is a fork of the original mod by JameH2 adding Space travel, as well as some custom lore and new machines \u0026 mechanics, making you have to do interplanetary automation for fully automating resources.\n\nNow,§l §e§lIQ Edition§r§r §rwas originally a joke fork of NTM: Space started by Tam69 and iris-lgtm but it quickly gained more and more features, diverging from NTM: Space more and more over time.\n\n\nCurrently, it adds many new features, like§c Nether§r automation \u0026 biomes, An entirely new drug system and consumables rework,§d Magic and alchem§r§dy§r, a bunch of more machines and resources, and, hopefully, as it continues to be maintained, we shall see a large divergence from NTM Progression as a whole.\r\n\r\nThe goal of IQ Edition is to add things that the original NTM team would not want to focus on, or want in the upstream version of the mod, and hopefully feel different from base NTM.\n\nThat said, thanks for playing our fork, and i hope you\u0027ll enjoy this modpack I made :)\n\n\u0026q- Iris§r\n ",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "betterquesting:placeholder"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "What Is This?",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5571938890381019562,
+  "questIDLow:4": -7646233488031289968,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
