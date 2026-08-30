@@ -1,6 +1,6 @@
 * text eol=lf
 
-*.[jJ][aA][rR]          binary
+*.[jJ][aA][rR]          filter=lfs diff=lfs merge=lfs -text
 
 *.[pP][nN][gG]          binary
 *.[jJ][pP][gG]          binary

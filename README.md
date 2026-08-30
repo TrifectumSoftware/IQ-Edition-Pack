@@ -4,9 +4,9 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 
 ## Mods
 
-Mods are not tracked in this repository. 56 mods are downloaded automatically by mod-director from config/mod-director/mods.bundle.json. The remaining 62 mods are placed in mods/ by hand and are not fetched by mod-director.
+56 mods are downloaded by mod-director from config/mod-director/mods.bundle.json. The remaining 62 mods are tracked in this repository via git-lfs. Both end up in mods/.
 
-### Fetched by mod-director (56)
+### Downloaded by mod-director (56)
 
 <details>
 <summary>56 mods</summary>
@@ -70,7 +70,7 @@ Mods are not tracked in this repository. 56 mods are downloaded automatically by
 
 </details>
 
-### Installed manually (62)
+### Tracked via git-lfs (62)
 
 <details>
 <summary>62 mods</summary>
