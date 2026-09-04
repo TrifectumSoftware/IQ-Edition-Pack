@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "§6Latex§r, as you have seen in previous quests, can be automated with a Jungle Tree farm. However, you should know that you can not only substitute it with §eRubber§r in some recipes, but you can also mass-automate Rubber by acidizing§e Latex§r with§e Sour Gas§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -57,5 +57,24 @@
   "questIDHigh:4": 7643692651589682352,
   "questIDLow:4": -8642585671727711824,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ingot_biorubber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

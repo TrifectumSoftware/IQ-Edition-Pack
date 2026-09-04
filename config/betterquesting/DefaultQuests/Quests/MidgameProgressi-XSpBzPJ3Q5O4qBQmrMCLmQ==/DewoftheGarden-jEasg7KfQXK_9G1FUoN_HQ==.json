@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -5318791536638082358,
-      "questIDLow:4": -5874751950435812025
+      "questIDHigh:4": 5642227138886323288,
+      "questIDLow:4": -6253066063352591580
     }
   },
   "properties:10": {
@@ -17,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "§cNether Satan\u0027s Bloo§r§cd§r processing gives you many rewards, but Dew of the Garden is a strong acid is possibly one of the best ones.\n\n§6Dew of the Garden§r allows you to double your output from Milgrade circuit soldering.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 248,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder"
+        "id:8": "hbm:item.fluid_icon"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Dew of the Garden",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +54,13 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2580960369689081356,
-  "questIDLow:4": -8929080888204682001,
+  "questIDHigh:4": -8338787978392419982,
+  "questIDLow:4": -4614943573643395299,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

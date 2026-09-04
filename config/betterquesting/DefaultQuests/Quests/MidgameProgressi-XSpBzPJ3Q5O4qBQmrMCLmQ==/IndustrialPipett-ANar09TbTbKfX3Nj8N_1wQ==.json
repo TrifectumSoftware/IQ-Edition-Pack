@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 8612483542613704820,
-      "questIDLow:4": -6525135095632577193
+      "questIDHigh:4": 5109527905043236333,
+      "questIDLow:4": -7815386002482808706
     }
   },
   "properties:10": {
@@ -17,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "The §6Industrial Pipette§r lets you transport 16,000mB of fluid by §eLeft-Clicking §rthen§e Shift Left-Clicking§r tanks. ",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.fluid_pump"
+        "id:8": "hbm:item.industrial_pipette"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Industrial Pipette",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +54,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 6813270629015568919,
-  "questIDLow:4": -4843642995568775884,
+  "questIDHigh:4": 60424571313671602,
+  "questIDLow:4": -6962719625811331647,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.industrial_pipette"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

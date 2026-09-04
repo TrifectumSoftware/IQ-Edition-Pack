@@ -1,5 +1,10 @@
 {
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5642227138886323288,
+      "questIDLow:4": -6253066063352591580
+    }
+  },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
@@ -12,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "The §6Survey Scanner §ris a tool which lets you scan for special blocks underground. These include§e Coltan, Bedrock Oil, Bedrock Ore, Bedrock Arteries, Australium, and Depth Rock§r.\n\nRight-clicking this onto a §6Beryllium Block§r with an §dEntanglement Kit §rwill allow you to teleport to the End.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:nether_star"
+        "id:8": "hbm:item.survey_scanner"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Survey Scanner",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -49,8 +54,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 5133925608375402716,
-  "questIDLow:4": -7694420698497979422,
+  "questIDHigh:4": 8841451429836702513,
+  "questIDLow:4": -6795042433277488158,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.survey_scanner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

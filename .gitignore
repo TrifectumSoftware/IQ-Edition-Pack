@@ -83,6 +83,7 @@
 !mods/zume-1.2.2.jar
 
 config/mobsinfo/*.cache
+config/falsetweaks_userspecific.cfg
 
 optionsnf.txt
 options_skinport.txt

@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -8050636255347653056,
-      "questIDLow:4": -6137115624587448430
+      "questIDHigh:4": 8612483542613704820,
+      "questIDLow:4": -6525135095632577193
     }
   },
   "properties:10": {
@@ -17,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "The§c Redstone Fluid Valve§r allows you to close or open a fluid duct when you supply power to the block. \n\nIt can be used in tandem with Redstone-Over-Radio Transmitters to create auto-fluid management systems.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_arc_furnace"
+        "id:8": "hbm:tile.fluid_switch"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Redstone Fluid Valve",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +54,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2943457104222663038,
-  "questIDLow:4": -6270414585335165082,
+  "questIDHigh:4": -4935464092846895660,
+  "questIDLow:4": -4751013676512918366,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.fluid_switch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

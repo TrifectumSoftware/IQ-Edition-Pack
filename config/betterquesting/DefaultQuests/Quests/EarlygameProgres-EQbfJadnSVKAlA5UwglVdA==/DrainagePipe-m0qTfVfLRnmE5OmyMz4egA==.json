@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2580960369689081356,
-      "questIDLow:4": -8929080888204682001
+      "questIDHigh:4": 6948863706669597856,
+      "questIDLow:4": -5508479653885391560
     }
   },
   "properties:10": {
@@ -17,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "The §6Drainage Pipe §ris a special kind of pipe that allows you to disperse fluids into the atmosphere.\n\nFluid pollution stats apply when dispersing. It has a throughput of §e1000mb/t§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_fluidtank"
+        "id:8": "hbm:tile.machine_drain"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Drainage Pipe",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +54,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 8612483542613704820,
-  "questIDLow:4": -6525135095632577193,
+  "questIDHigh:4": -7256825683000998279,
+  "questIDLow:4": -8870708414439874944,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.machine_drain"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 5642227138886323288,
-      "questIDLow:4": -6253066063352591580
+      "questIDHigh:4": 4341120562046717230,
+      "questIDLow:4": -4976242424180892752
     }
   },
   "properties:10": {
@@ -17,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "Casting §6Dense Wire§r is a common thing most NTM players do after they create their first one. Dense wire takes a lot of§e §f§eHE§r§r §rto make and often overloads power grids, so a recommended course of action is making a Mold of that Dense Wire and casting dense wire into that.\n\n§6Dense wire§r is only an ingot; so you can also craft §e9x§r Dense wire at once using a regular Basin mold.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 7900,
         "OreDict:8": "",
-        "id:8": "hbm:item.survey_scanner"
+        "id:8": "hbm:item.wire_dense"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Dense Wire",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +54,33 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 8841451429836702513,
-  "questIDLow:4": -6795042433277488158,
+  "questIDHigh:4": 4118634362353896523,
+  "questIDLow:4": -7980573249897939262,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "OreDict:8": "",
+          "id:8": "hbm:item.mold"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "OreDict:8": "",
+          "id:8": "hbm:item.mold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

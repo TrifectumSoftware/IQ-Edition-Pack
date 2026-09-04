@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 5109527905043236333,
-      "questIDLow:4": -7815386002482808706
+      "questIDHigh:4": 5642227138886323288,
+      "questIDLow:4": -6253066063352591580
     }
   },
   "properties:10": {
@@ -23,12 +23,12 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_coker"
+        "id:8": "hbm:tile.launch_pad_large"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Launch Pad",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +54,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -4824654037240559939,
-  "questIDLow:4": -7787325660700295062,
+  "questIDHigh:4": -4633362773053455920,
+  "questIDLow:4": -8617131097821248675,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.launch_pad_large"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
