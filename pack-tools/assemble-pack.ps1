@@ -63,4 +63,7 @@ try {
     Remove-Item $staging -Recurse -Force -ErrorAction SilentlyContinue
 }
 
+# robocopy may leave $LASTEXITCODE at 1 (success); force a clean exit so CI
+# does not treat the run as failed.
 Write-Host "Built: $Output" -ForegroundColor Green
+exit 0
