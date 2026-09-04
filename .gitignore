@@ -18,10 +18,10 @@
 !mods/+Mycelium-2.3.jar
 !mods/+unimixins-all-1.7.10-0.3.1.jar
 !mods/anextratouch-0.0.12.jar
-!mods/angelica-2.1.53.jar
 !mods/archaicfix-0.8.0.jar
 !mods/ArmoredArms-v1.3.8-1.7.10-release.jar
-!mods/BetterLoadingScreen-1.3.10.jar
+!mods/baller6lite-mc1.7.10-rosin.jar
+!mods/beddium-mc1.7.10-1.2.5-j25.jar
 !mods/buddingpolar-v1.0.7-1.7.10.jar
 !mods/BugTorched-1.7.10-1.2.14.jar
 !mods/CarbonConfig-1.7.10-2.0.2.1.jar
@@ -42,6 +42,7 @@
 !mods/endlessids-mc1.7.10-1.7.4.jar
 !mods/esm-legacy-1.7.10-1.1.1.jar
 !mods/falsepatternlib-mc1.7.10-1.12.2.jar
+!mods/falsetweaks-mc1.7.10-4.4.3.jar
 !mods/fentlib-0.0.53-curseforge.jar
 !mods/GraveStone Mod 0.7.10.3.jar
 !mods/gtnhextlib-1.0.4.jar
@@ -54,6 +55,8 @@
 !mods/itemphysic-1.3.1.jar
 !mods/journeymap-forge-1.7.10-6.0.2.jar
 !mods/lwjgl3ify-3.0.31.jar
+!mods/lumi-mc1.7.10-1.2.1.jar
+!mods/mcpatcher-mc1.7.10-0.3.0.jar
 !mods/minemoticon-51385c9-snapshot.jar
 !mods/MineTweakerRecipeMaker-1.7.10-1.1.1.jar
 !mods/modularui2-2.3.80-1.7.10.jar
@@ -61,7 +64,8 @@
 !mods/NonUpdate-Retro-1.0.jar
 !mods/ntmchisel-df43ab3-main+df43ab35d1-dirty.jar
 !mods/plonk-1.7.10-10.0.4.jar
-!mods/RealmsDeleter-1.7.10-1.0.0.jar
+!mods/RightProperGUIScale-mc1.7.10-2.1.1.jar
+!mods/rple-mc1.7.10-2.2.3.jar
 !mods/Salutation-1.7.10-1.0.2.jar
 !mods/ServerUtilities-2.4.3.jar
 !mods/SignPicture-1.7.10-2.8.0-universal.jar
@@ -75,6 +79,7 @@
 !mods/waystones-1.0.15.jar
 !mods/worldedit-forge-mc1.7.10-6.1.1-dist.jar
 !mods/worleycaves-1.6.jar
+!mods/zume-1.2.2.jar
 
 config/mobsinfo/*.cache
 

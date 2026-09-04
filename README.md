@@ -4,12 +4,12 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 
 ## Mods
 
-56 mods are downloaded by mod-director from config/mod-director/mods.bundle.json. The remaining 62 mods are tracked in this repository via git-lfs. Both end up in mods/.
+57 mods are downloaded by mod-director from config/mod-director/mods.bundle.json into mods/ at launch. The remaining 67 mods are tracked in this repository via git-lfs.
 
-### Downloaded by mod-director (56)
+### Downloaded by mod-director (57)
 
 <details>
-<summary>56 mods</summary>
+<summary>57 mods</summary>
 
 - `adventurebackpack-1.4.23-GTNH.jar`
 - `ae2stuff-0.10.20-GTNH.jar`
@@ -21,6 +21,7 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 - `BaublesExpanded-2.2.22-GTNH.jar`
 - `bdlib-1.11.0-GTNH.jar`
 - `BetterBuildersWands-0.13.11-GTNH.jar`
+- `BetterLoadingScreen-1.7.13-GTNH.jar`
 - `betterp2p-1.4.3.jar`
 - `BetterQuesting-3.8.78-GTNH.jar`
 - `BiblioCraft[v1.11.7][MC1.7.10].jar`
@@ -70,20 +71,21 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 
 </details>
 
-### Tracked via git-lfs (62)
+
+### Tracked via git-lfs (67)
 
 <details>
-<summary>62 mods</summary>
+<summary>67 mods</summary>
 
 - `!mod-director-launchwrapper-1.9.1.jar`
 - `!mod-director-launchwrapper-1.9.1fork6.jar`
 - `+Mycelium-2.3.jar`
 - `+unimixins-all-1.7.10-0.3.1.jar`
 - `anextratouch-0.0.12.jar`
-- `angelica-2.1.53.jar`
 - `archaicfix-0.8.0.jar`
 - `ArmoredArms-v1.3.8-1.7.10-release.jar`
-- `BetterLoadingScreen-1.3.10.jar`
+- `baller6lite-mc1.7.10-rosin.jar`
+- `beddium-mc1.7.10-1.2.5-j25.jar`
 - `buddingpolar-v1.0.7-1.7.10.jar`
 - `BugTorched-1.7.10-1.2.14.jar`
 - `CarbonConfig-1.7.10-2.0.2.1.jar`
@@ -104,6 +106,7 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 - `endlessids-mc1.7.10-1.7.4.jar`
 - `esm-legacy-1.7.10-1.1.1.jar`
 - `falsepatternlib-mc1.7.10-1.12.2.jar`
+- `falsetweaks-mc1.7.10-4.4.3.jar`
 - `fentlib-0.0.53-curseforge.jar`
 - `GraveStone Mod 0.7.10.3.jar`
 - `gtnhextlib-1.0.4.jar`
@@ -115,7 +118,9 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 - `iqcrpackmod.jar`
 - `itemphysic-1.3.1.jar`
 - `journeymap-forge-1.7.10-6.0.2.jar`
+- `lumi-mc1.7.10-1.2.1.jar`
 - `lwjgl3ify-3.0.31.jar`
+- `mcpatcher-mc1.7.10-0.3.0.jar`
 - `minemoticon-51385c9-snapshot.jar`
 - `MineTweakerRecipeMaker-1.7.10-1.1.1.jar`
 - `modularui2-2.3.80-1.7.10.jar`
@@ -123,7 +128,8 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 - `NonUpdate-Retro-1.0.jar`
 - `ntmchisel-df43ab3-main+df43ab35d1-dirty.jar`
 - `plonk-1.7.10-10.0.4.jar`
-- `RealmsDeleter-1.7.10-1.0.0.jar`
+- `RightProperGUIScale-mc1.7.10-2.1.1.jar`
+- `rple-mc1.7.10-2.2.3.jar`
 - `Salutation-1.7.10-1.0.2.jar`
 - `ServerUtilities-2.4.3.jar`
 - `SignPicture-1.7.10-2.8.0-universal.jar`
@@ -137,6 +143,7 @@ A Minecraft 1.7.10 modpack built on Forge and the GT New Horizons ecosystem.
 - `waystones-1.0.15.jar`
 - `worldedit-forge-mc1.7.10-6.1.1-dist.jar`
 - `worleycaves-1.6.jar`
+- `zume-1.2.2.jar`
 
 </details>
 
