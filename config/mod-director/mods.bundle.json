@@ -1,233 +1,233 @@
 {
-    "url": [
-        {
-            "fileName": "BetterQuesting-3.8.78-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.78-GTNH/BetterQuesting-3.8.78-GTNH.jar"
-        },
-        {
-            "fileName": "chisel-2.17.31-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.17.31-GTNH/chisel-2.17.31-GTNH.jar"
-        },
-        {
-            "fileName": "adventurebackpack-1.4.23-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.4.23-GTNH/adventurebackpack-1.4.23-GTNH.jar"
-        },
-        {
-            "fileName": "appliedenergistics2-rv3-beta-1033-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1033-GTNH/appliedenergistics2-rv3-beta-1033-GTNH.jar"
-        },
-        {
-            "fileName": "chromatictooltips-1.0.34-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/ChromaticTooltips/releases/download/1.0.34-GTNH/chromatictooltips-1.0.34-GTNH.jar"
-        },
-        {
-            "fileName": "chromatictooltipscompat-1.0.30.jar",
-            "url": "https://github.com/slprime/ChromaticTooltipsCompat/releases/download/1.0.30/chromatictooltipscompat-1.0.30.jar",
-            "metadata": {
-                "hash": {
-                    "SHA-256": "430ec79792541e526319db8083b3ce8f7d3c53357119cf7fcf25e399e68a365a"
+    "url":  [
+                {
+                    "fileName":  "BetterQuesting-3.8.78-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.78-GTNH/BetterQuesting-3.8.78-GTNH.jar"
+                },
+                {
+                    "fileName":  "BetterLoadingScreen-1.7.13-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.13-GTNH/BetterLoadingScreen-1.7.13-GTNH.jar"
+                },
+                {
+                    "fileName":  "chisel-2.17.31-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Chisel/releases/download/2.17.31-GTNH/chisel-2.17.31-GTNH.jar"
+                },
+                {
+                    "fileName":  "adventurebackpack-1.4.23-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.4.23-GTNH/adventurebackpack-1.4.23-GTNH.jar"
+                },
+                {
+                    "fileName":  "appliedenergistics2-rv3-beta-1033-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1033-GTNH/appliedenergistics2-rv3-beta-1033-GTNH.jar"
+                },
+                {
+                    "fileName":  "chromatictooltips-1.0.34-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/ChromaticTooltips/releases/download/1.0.34-GTNH/chromatictooltips-1.0.34-GTNH.jar"
+                },
+                {
+                    "fileName":  "chromatictooltipscompat-1.0.30.jar",
+                    "url":  "https://github.com/slprime/ChromaticTooltipsCompat/releases/download/1.0.30/chromatictooltipscompat-1.0.30.jar",
+                    "metadata":  {
+                                     "hash":  {
+                                                  "SHA-256":  "430ec79792541e526319db8083b3ce8f7d3c53357119cf7fcf25e399e68a365a"
+                                              }
+                                 }
+                },
+                {
+                    "fileName":  "ProjRed-4.12.43-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.12.43-GTNH/ProjRed-4.12.43-GTNH.jar"
+                },
+                {
+                    "fileName":  "ForgeRelocation-0.3.7.jar",
+                    "url":  "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.3.7/ForgeRelocation-0.3.7.jar"
+                },
+                {
+                    "fileName":  "ForgeMultipart-1.7.12.jar",
+                    "url":  "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.7.12/ForgeMultipart-1.7.12.jar"
+                },
+                {
+                    "fileName":  "MrTJPCore-1.3.7.jar",
+                    "url":  "https://github.com/GTNewHorizons/MrTJPCore/releases/download/1.3.7/MrTJPCore-1.3.7.jar"
+                },
+                {
+                    "fileName":  "NotEnoughItems-2.8.125-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.125-GTNH/NotEnoughItems-2.8.125-GTNH.jar"
+                },
+                {
+                    "fileName":  "CodeChickenCore-1.4.17.jar",
+                    "url":  "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.4.17/CodeChickenCore-1.4.17.jar"
+                },
+                {
+                    "fileName":  "InGameInfoXML-2.9.5.jar",
+                    "url":  "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.9.5/InGameInfoXML-2.9.5.jar"
+                },
+                {
+                    "fileName":  "duradisplay-1.4.4.jar",
+                    "url":  "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.4.4/duradisplay-1.4.4.jar"
+                },
+                {
+                    "fileName":  "Schematica-1.12.6-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Schematica/releases/download/1.12.6-GTNH/Schematica-1.12.6-GTNH.jar"
+                },
+                {
+                    "fileName":  "LunatriusCore-1.2.1-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.2.1-GTNH/LunatriusCore-1.2.1-GTNH.jar"
+                },
+                {
+                    "fileName":  "navigator-1.1.8.jar",
+                    "url":  "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.8/navigator-1.1.8.jar"
+                },
+                {
+                    "fileName":  "backhand-1.8.13.jar",
+                    "url":  "https://github.com/GTNewHorizons/Backhand/releases/download/1.8.13/backhand-1.8.13.jar"
+                },
+                {
+                    "fileName":  "OpenBlocks-1.12.20-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.20-GTNH/OpenBlocks-1.12.20-GTNH.jar"
+                },
+                {
+                    "fileName":  "OpenModsLibs-0.10.14.jar",
+                    "url":  "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.14/OpenModsLibs-0.10.14.jar"
+                },
+                {
+                    "fileName":  "OpenComputers-1.12.55-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.55-GTNH/OpenComputers-1.12.55-GTNH.jar"
+                },
+                {
+                    "fileName":  "Computronics-1.9.9-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.9-GTNH/Computronics-1.9.9-GTNH.jar"
+                },
+                {
+                    "fileName":  "OpenGlasses-1.6.9-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.9-GTNH/OpenGlasses-1.6.9-GTNH.jar"
+                },
+                {
+                    "fileName":  "opensecurity-1.2.2-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/OpenSecurity/releases/download/1.2.2-GTNH/opensecurity-1.2.2-GTNH.jar"
+                },
+                {
+                    "fileName":  "openprinter-0.3.1-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/OpenPrinter/releases/download/0.3.1-GTNH/openprinter-0.3.1-GTNH.jar"
+                },
+                {
+                    "fileName":  "bogosorter-1.3.46-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.46-GTNH/bogosorter-1.3.46-GTNH.jar"
+                },
+                {
+                    "fileName":  "mobsinfo-0.5.20-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Mobs-Info/releases/download/0.5.20-GTNH/mobsinfo-0.5.20-GTNH.jar"
+                },
+                {
+                    "fileName":  "AppleCore-3.3.11.jar",
+                    "url":  "https://github.com/GTNewHorizons/AppleCore/releases/download/3.3.11/AppleCore-3.3.11.jar"
+                },
+                {
+                    "fileName":  "controlling-2.1.9.jar",
+                    "url":  "https://github.com/GTNewHorizons/Controlling/releases/download/2.1.9/controlling-2.1.9.jar"
+                },
+                {
+                    "fileName":  "findit-1.4.4.jar",
+                    "url":  "https://github.com/GTNewHorizons/FindIt/releases/download/1.4.4/findit-1.4.4.jar"
+                },
+                {
+                    "fileName":  "RandomThings-2.7.9.jar",
+                    "url":  "https://github.com/GTNewHorizons/Random-Things/releases/download/2.7.9/RandomThings-2.7.9.jar"
+                },
+                {
+                    "fileName":  "Opis-1.4.12-mapless.jar",
+                    "url":  "https://github.com/GTNewHorizons/Opis/releases/download/1.4.12-mapless/Opis-1.4.12-mapless.jar"
+                },
+                {
+                    "fileName":  "MouseTweaks-2.5.2-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/MouseTweaks/releases/download/2.5.2-GTNH/MouseTweaks-2.5.2-GTNH.jar"
+                },
+                {
+                    "fileName":  "overloadedarmorbar-1.1.1.jar",
+                    "url":  "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.1.1/overloadedarmorbar-1.1.1.jar"
+                },
+                {
+                    "fileName":  "RTG-1.2.1-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Realistic-Terrain-Generation/releases/download/1.2.1-GTNH/RTG-1.2.1-GTNH.jar"
+                },
+                {
+                    "fileName":  "defaultworldgenerator-0.4.0.jar",
+                    "url":  "https://github.com/GTNewHorizons/DefaultWorldGenerator/releases/download/0.4.0/defaultworldgenerator-0.4.0.jar"
+                },
+                {
+                    "fileName":  "AsieLib-0.7.2.jar",
+                    "url":  "https://github.com/GTNewHorizons/AsieLib/releases/download/0.7.2/AsieLib-0.7.2.jar"
+                },
+                {
+                    "fileName":  "wdmla-2.8.2.jar",
+                    "url":  "https://github.com/GTNewHorizons/WDMla/releases/download/2.8.2/wdmla-2.8.2.jar"
+                },
+                {
+                    "fileName":  "etfuturum-2.6.54-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.54-GTNH/etfuturum-2.6.54-GTNH.jar"
+                },
+                {
+                    "fileName":  "BaublesExpanded-2.2.22-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Baubles-Expanded/releases/download/2.2.22-GTNH/BaublesExpanded-2.2.22-GTNH.jar"
+                },
+                {
+                    "fileName":  "ae2stuff-0.10.20-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/AE2Stuff/releases/download/0.10.20-GTNH/ae2stuff-0.10.20-GTNH.jar"
+                },
+                {
+                    "fileName":  "bdlib-1.11.0-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/BDLib/releases/download/1.11.0-GTNH/bdlib-1.11.0-GTNH.jar"
+                },
+                {
+                    "fileName":  "Ztones-2.3.3-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/Ztones-Unofficial/releases/download/2.3.3-GTNH/Ztones-2.3.3-GTNH.jar"
+                },
+                {
+                    "fileName":  "littletiles-1.6.41-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.41/littletiles-1.6.41.jar"
+                },
+                {
+                    "fileName":  "itlt-1.7.10-1.0.4.jar",
+                    "url":  "https://github.com/GTNewHorizons/itlt/releases/download/1.0.4/itlt-1.7.10-1.0.4.jar"
+                },
+                {
+                    "fileName":  "ArchitectureCraft-1.12.16.jar",
+                    "url":  "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.12.16/ArchitectureCraft-1.12.16.jar"
+                },
+                {
+                    "fileName":  "CarpentersBlocks-3.7.3-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.7.3-GTNH/CarpentersBlocks-3.7.3-GTNH.jar"
+                },
+                {
+                    "fileName":  "IronChest-6.1.13.jar",
+                    "url":  "https://github.com/GTNewHorizons/ironchest/releases/download/6.1.13/IronChest-6.1.13.jar"
+                },
+                {
+                    "fileName":  "BetterBuildersWands-0.13.11-GTNH.jar",
+                    "url":  "https://github.com/GTNewHorizons/BetterBuildersWands/releases/download/0.13.11-GTNH/BetterBuildersWands-0.13.11-GTNH.jar"
+                },
+                {
+                    "fileName":  "modernmarkings-0.3.13-1.7.10.jar",
+                    "url":  "https://github.com/GTNewHorizons/ModernMarkings/releases/download/0.3.13-1.7.10/modernmarkings-0.3.13-1.7.10.jar"
+                },
+                {
+                    "fileName":  "EnhancedLootBags-1.3.4.jar",
+                    "url":  "https://github.com/GTNewHorizons/EnhancedLootBags/releases/download/1.3.4/EnhancedLootBags-1.3.4.jar"
+                },
+                {
+                    "fileName":  "YAMCore-0.7.5.jar",
+                    "url":  "https://github.com/GTNewHorizons/Yamcl/releases/download/0.7.5/YAMCore-0.7.5.jar"
+                },
+                {
+                    "fileName":  "txloader-1.8.11.jar",
+                    "url":  "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.8.11/txloader-1.8.11.jar"
+                },
+                {
+                    "fileName":  "betterp2p-1.4.3.jar",
+                    "url":  "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.4.3/betterp2p-1.4.3.jar"
+                },
+                {
+                    "fileName":  "forgelin-2.0.3-GTNH.jar",
+                    "url":  "https://cdn.modrinth.com/data/qwLdfNrQ/versions/5jKr7yfn/forgelin-2.0.3-GTNH.jar"
                 }
-            }
-        },
-        {
-            "fileName": "ProjRed-4.12.43-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.12.43-GTNH/ProjRed-4.12.43-GTNH.jar"
-        },
-        {
-            "fileName": "ForgeRelocation-0.3.7.jar",
-            "url": "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.3.7/ForgeRelocation-0.3.7.jar"
-        },
-        {
-            "fileName": "ForgeMultipart-1.7.12.jar",
-            "url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.7.12/ForgeMultipart-1.7.12.jar"
-        },
-        {
-            "fileName": "MrTJPCore-1.3.7.jar",
-            "url": "https://github.com/GTNewHorizons/MrTJPCore/releases/download/1.3.7/MrTJPCore-1.3.7.jar"
-        },
-        {
-            "fileName": "NotEnoughItems-2.8.125-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.125-GTNH/NotEnoughItems-2.8.125-GTNH.jar"
-        },
-        {
-            "fileName": "CodeChickenCore-1.4.17.jar",
-            "url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.4.17/CodeChickenCore-1.4.17.jar"
-        },
-        {
-            "fileName": "InGameInfoXML-2.9.5.jar",
-            "url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.9.5/InGameInfoXML-2.9.5.jar"
-        },
-        {
-            "fileName": "duradisplay-1.4.4.jar",
-            "url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.4.4/duradisplay-1.4.4.jar"
-        },
-        {
-            "fileName": "Schematica-1.12.6-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.12.6-GTNH/Schematica-1.12.6-GTNH.jar"
-        },
-        {
-            "fileName": "LunatriusCore-1.2.1-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.2.1-GTNH/LunatriusCore-1.2.1-GTNH.jar"
-        },
-        {
-            "fileName": "navigator-1.1.8.jar",
-            "url": "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.8/navigator-1.1.8.jar"
-        },
-        {
-            "fileName": "backhand-1.8.13.jar",
-            "url": "https://github.com/GTNewHorizons/Backhand/releases/download/1.8.13/backhand-1.8.13.jar"
-        },
-        {
-            "fileName": "OpenBlocks-1.12.20-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.20-GTNH/OpenBlocks-1.12.20-GTNH.jar"
-        },
-        {
-            "fileName": "OpenModsLibs-0.10.14.jar",
-            "url": "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.14/OpenModsLibs-0.10.14.jar"
-        },
-        {
-            "fileName": "OpenComputers-1.12.55-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.55-GTNH/OpenComputers-1.12.55-GTNH.jar"
-        },
-        {
-            "fileName": "Computronics-1.9.9-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.9-GTNH/Computronics-1.9.9-GTNH.jar"
-        },
-        {
-            "fileName": "OpenGlasses-1.6.9-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.9-GTNH/OpenGlasses-1.6.9-GTNH.jar"
-        },
-        {
-            "fileName": "opensecurity-1.2.2-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/OpenSecurity/releases/download/1.2.2-GTNH/opensecurity-1.2.2-GTNH.jar"
-        },
-        {
-            "fileName": "openprinter-0.3.1-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/OpenPrinter/releases/download/0.3.1-GTNH/openprinter-0.3.1-GTNH.jar"
-        },
-        {
-            "fileName": "bogosorter-1.3.46-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.46-GTNH/bogosorter-1.3.46-GTNH.jar"
-        },
-        {
-            "fileName": "mobsinfo-0.5.20-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Mobs-Info/releases/download/0.5.20-GTNH/mobsinfo-0.5.20-GTNH.jar"
-        },
-        {
-            "fileName": "AppleCore-3.3.11.jar",
-            "url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.3.11/AppleCore-3.3.11.jar"
-        },
-        {
-            "fileName": "controlling-2.1.9.jar",
-            "url": "https://github.com/GTNewHorizons/Controlling/releases/download/2.1.9/controlling-2.1.9.jar"
-        },
-        {
-            "fileName": "findit-1.4.4.jar",
-            "url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.4.4/findit-1.4.4.jar"
-        },
-        {
-            "fileName": "RandomThings-2.7.9.jar",
-            "url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.7.9/RandomThings-2.7.9.jar"
-        },
-        {
-            "fileName": "Opis-1.4.12-mapless.jar",
-            "url": "https://github.com/GTNewHorizons/Opis/releases/download/1.4.12-mapless/Opis-1.4.12-mapless.jar"
-        },
-        {
-            "fileName": "MouseTweaks-2.5.2-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/MouseTweaks/releases/download/2.5.2-GTNH/MouseTweaks-2.5.2-GTNH.jar"
-        },
-        {
-            "fileName": "overloadedarmorbar-1.1.1.jar",
-            "url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.1.1/overloadedarmorbar-1.1.1.jar"
-        },
-        {
-            "fileName": "RTG-1.2.1-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Realistic-Terrain-Generation/releases/download/1.2.1-GTNH/RTG-1.2.1-GTNH.jar"
-        },
-        {
-            "fileName": "defaultworldgenerator-0.4.0.jar",
-            "url": "https://github.com/GTNewHorizons/DefaultWorldGenerator/releases/download/0.4.0/defaultworldgenerator-0.4.0.jar"
-        },
-        {
-            "fileName": "AsieLib-0.7.2.jar",
-            "url": "https://github.com/GTNewHorizons/AsieLib/releases/download/0.7.2/AsieLib-0.7.2.jar"
-        },
-        {
-            "fileName": "wdmla-2.8.2.jar",
-            "url": "https://github.com/GTNewHorizons/WDMla/releases/download/2.8.2/wdmla-2.8.2.jar"
-        },
-        {
-            "fileName": "etfuturum-2.6.54-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.54-GTNH/etfuturum-2.6.54-GTNH.jar"
-        },
-        {
-            "fileName": "BaublesExpanded-2.2.22-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Baubles-Expanded/releases/download/2.2.22-GTNH/BaublesExpanded-2.2.22-GTNH.jar"
-        },
-        {
-            "fileName": "ae2stuff-0.10.20-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/AE2Stuff/releases/download/0.10.20-GTNH/ae2stuff-0.10.20-GTNH.jar"
-        },
-        {
-            "fileName": "bdlib-1.11.0-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/BDLib/releases/download/1.11.0-GTNH/bdlib-1.11.0-GTNH.jar"
-        },
-        {
-            "fileName": "Ztones-2.3.3-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/Ztones-Unofficial/releases/download/2.3.3-GTNH/Ztones-2.3.3-GTNH.jar"
-        },
-        {
-            "fileName": "littletiles-1.6.41-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.41/littletiles-1.6.41.jar"
-        },
-        {
-            "fileName": "itlt-1.7.10-1.0.4.jar",
-            "url": "https://github.com/GTNewHorizons/itlt/releases/download/1.0.4/itlt-1.7.10-1.0.4.jar"
-        },
-        {
-            "fileName": "ArchitectureCraft-1.12.16.jar",
-            "url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.12.16/ArchitectureCraft-1.12.16.jar"
-        },
-        {
-            "fileName": "CarpentersBlocks-3.7.3-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.7.3-GTNH/CarpentersBlocks-3.7.3-GTNH.jar"
-        },
-        {
-            "fileName": "IronChest-6.1.13.jar",
-            "url": "https://github.com/GTNewHorizons/ironchest/releases/download/6.1.13/IronChest-6.1.13.jar"
-        },
-        {
-            "fileName": "BiblioCraft[v1.11.7][MC1.7.10].jar",
-            "url": "https://github.com/GTNewHorizons/BiblioCraft/releases/download/v1.11.7/BiblioCraft[v1.11.7][MC1.7.10].jar"
-        },
-        {
-            "fileName": "BetterBuildersWands-0.13.11-GTNH.jar",
-            "url": "https://github.com/GTNewHorizons/BetterBuildersWands/releases/download/0.13.11-GTNH/BetterBuildersWands-0.13.11-GTNH.jar"
-        },
-        {
-            "fileName": "modernmarkings-0.3.13-1.7.10.jar",
-            "url": "https://github.com/GTNewHorizons/ModernMarkings/releases/download/0.3.13-1.7.10/modernmarkings-0.3.13-1.7.10.jar"
-        },
-        {
-            "fileName": "EnhancedLootBags-1.3.4.jar",
-            "url": "https://github.com/GTNewHorizons/EnhancedLootBags/releases/download/1.3.4/EnhancedLootBags-1.3.4.jar"
-        },
-        {
-            "fileName": "YAMCore-0.7.5.jar",
-            "url": "https://github.com/GTNewHorizons/Yamcl/releases/download/0.7.5/YAMCore-0.7.5.jar"
-        },
-        {
-            "fileName": "txloader-1.8.11.jar",
-            "url": "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.8.11/txloader-1.8.11.jar"
-        },
-        {
-            "fileName": "betterp2p-1.4.3.jar",
-            "url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.4.3/betterp2p-1.4.3.jar"
-        },
-        {
-            "fileName": "forgelin-2.0.3-GTNH.jar",
-            "url": "https://cdn.modrinth.com/data/qwLdfNrQ/versions/5jKr7yfn/forgelin-2.0.3-GTNH.jar"
-        }
-    ]
+            ]
 }
