@@ -17,6 +17,7 @@ jobs:
     runs-on: windows-latest
     outputs:
       zip-path: ${{ steps.build.outputs.zip }}
+      tag: build-${{ github.sha }}
     steps:
       - name: Checkout with LFS
         uses: actions/checkout@v4
@@ -48,7 +49,7 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.sha }}
+          tag_name: build-${{ github.sha }}
           name: "Build ${{ github.sha }}"
           body: |
             Automatic build of commit `${{ github.sha }}`.
