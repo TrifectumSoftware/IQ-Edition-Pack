@@ -1,0 +1,56 @@
+name: build-pack
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-pack-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout with LFS
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Verify git-lfs objects pulled
+        shell: pwsh
+        run: |
+          git lfs ls-files | Select-Object -First 5
+          $count = (git lfs ls-files | Measure-Object).Count
+          Write-Host "LFS files: $count"
+
+      - name: Assemble instance and build zip
+        shell: pwsh
+        run: |
+          $zip = Join-Path $env:RUNNER_TEMP "IQ-Edition-Pack.zip"
+          & "${{ github.workspace }}\pack-tools\assemble-pack.ps1" -RepoRoot "${{ github.workspace }}" -Output $zip
+          Write-Host "ZIP=$zip" >> $env:GITHUB_ENV
+
+      - name: Upload zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: IQ-Edition-Pack
+          path: ${{ env.ZIP }}
+          if-no-files-found: error
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.sha }}
+          name: "Build ${{ github.sha }}"
+          body: |
+            Automatic build of commit `${{ github.sha }}`.
+
+            - Instance: ${{ env.ZIP }}
+            - Mod-director bundle: config/mod-director/mods.bundle.json (auto-downloads at launch)
+          files: ${{ env.ZIP }}
+          prerelease: true
