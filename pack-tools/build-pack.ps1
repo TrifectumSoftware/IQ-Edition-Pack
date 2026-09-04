@@ -59,7 +59,8 @@ $Output = [System.IO.Path]::GetFullPath($Output)
 $instanceSkipDirs = @("natives")
 $mcSkipDirs = @(
     "backups", "cachedImages", "crash-reports", "journeymap",
-    "logs", "saves", "screenshots", ".codegraph", ".omo", "falsepattern", "alexiil"
+    "logs", "saves", "screenshots", "shaderpacks", "texturepacks",
+    ".codegraph", ".omo", "falsepattern", "alexiil"
 )
 if ($NoGit) { $mcSkipDirs += ".git" }
 
