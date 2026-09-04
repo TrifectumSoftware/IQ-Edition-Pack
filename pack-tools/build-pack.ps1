@@ -38,6 +38,9 @@ $ErrorActionPreference = "Stop"
 if (-not (Test-Path (Join-Path $InstanceDir "instance.cfg"))) {
     throw "Not an instance dir (no instance.cfg): $InstanceDir"
 }
+# Resolve to the long form: Get-ChildItem returns long paths, so substring
+# math below must use the same form (CI temp dirs may use 8.3 short names).
+$InstanceDir = (Get-Item $InstanceDir).FullName.TrimEnd('\')
 $minecraft = Join-Path $InstanceDir "minecraft"
 if (-not (Test-Path (Join-Path $minecraft ".git"))) {
     throw "Expected a git repo at $minecraft\.git"
@@ -79,7 +82,6 @@ Write-Host "Output : $Output" -ForegroundColor Cyan
 
 # ---- Collect entries ----
 $entries = New-Object System.Collections.Generic.List[object]
-$root = Get-Item $InstanceDir
 
 # instance root files (not dirs we skip)
 Get-ChildItem $InstanceDir -Force | ForEach-Object {
@@ -90,24 +92,28 @@ Get-ChildItem $InstanceDir -Force | ForEach-Object {
     }
 }
 
-# instance root dirs: patches
+# instance root dirs: patches  (rel = path under InstanceDir)
 foreach ($d in @("patches")) {
     $p = Join-Path $InstanceDir $d
     if (Test-Path $p) {
-        Get-ChildItem $p -Recurse -File -Force | ForEach-Object {
-            $rel = ($_.FullName.Substring($InstanceDir.Length).TrimStart('\')).Replace('\', '/')
-            if (-not (Test-ShouldSkip $_.FullName $rel)) {
-                $entries.Add([pscustomobject]@{ Source = $_.FullName; Target = $rel })
+        $base = (Get-Item $p).FullName.TrimEnd('\')
+        Get-ChildItem -LiteralPath $base -Recurse -File -Force | ForEach-Object {
+            $rel = $_.FullName.Substring($base.Length).TrimStart('\').Replace('\', '/')
+            $target = "$d/$rel"
+            if (-not (Test-ShouldSkip $_.FullName $target)) {
+                $entries.Add([pscustomobject]@{ Source = $_.FullName; Target = $target })
             }
         }
     }
 }
 
-# minecraft dir: everything not skipped
-Get-ChildItem $minecraft -Recurse -File -Force | ForEach-Object {
-    $rel = ($_.FullName.Substring($InstanceDir.Length).TrimStart('\')).Replace('\', '/')
-    if (-not (Test-ShouldSkip $_.FullName $rel)) {
-        $entries.Add([pscustomobject]@{ Source = $_.FullName; Target = $rel })
+# minecraft dir: everything not skipped  (target = path under instance root)
+$base = (Get-Item $minecraft).FullName.TrimEnd('\')
+Get-ChildItem -LiteralPath $base -Recurse -File -Force | ForEach-Object {
+    $rel = $_.FullName.Substring($base.Length).TrimStart('\').Replace('\', '/')
+    $target = "minecraft/$rel"
+    if (-not (Test-ShouldSkip $_.FullName $target)) {
+        $entries.Add([pscustomobject]@{ Source = $_.FullName; Target = $target })
     }
 }
 
