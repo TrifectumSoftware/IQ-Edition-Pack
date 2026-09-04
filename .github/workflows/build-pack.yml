@@ -15,6 +15,8 @@ concurrency:
 jobs:
   build:
     runs-on: windows-latest
+    outputs:
+      zip-path: ${{ steps.build.outputs.zip }}
     steps:
       - name: Checkout with LFS
         uses: actions/checkout@v4
@@ -29,17 +31,18 @@ jobs:
           Write-Host "LFS files: $count"
 
       - name: Assemble instance and build zip
+        id: build
         shell: pwsh
         run: |
           $zip = Join-Path $env:RUNNER_TEMP "IQ-Edition-Pack.zip"
           & "${{ github.workspace }}\pack-tools\assemble-pack.ps1" -RepoRoot "${{ github.workspace }}" -Output $zip
-          Write-Host "ZIP=$zip" >> $env:GITHUB_ENV
+          "zip=$zip" >> $env:GITHUB_OUTPUT
 
       - name: Upload zip artifact
         uses: actions/upload-artifact@v4
         with:
           name: IQ-Edition-Pack
-          path: ${{ env.ZIP }}
+          path: ${{ steps.build.outputs.zip }}
           if-no-files-found: error
 
       - name: Create GitHub Release
@@ -50,7 +53,7 @@ jobs:
           body: |
             Automatic build of commit `${{ github.sha }}`.
 
-            - Instance: ${{ env.ZIP }}
             - Mod-director bundle: config/mod-director/mods.bundle.json (auto-downloads at launch)
-          files: ${{ env.ZIP }}
+            - Manual mods tracked in-repo
+          files: ${{ steps.build.outputs.zip }}
           prerelease: true
