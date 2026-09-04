@@ -54,7 +54,9 @@ if (-not $Output) {
 $Output = [System.IO.Path]::GetFullPath($Output)
 
 # Directories that never ship (relative to instance root or minecraft root)
-$instanceSkipDirs = @("libraries", "natives")
+# NOTE: libraries/ must ship - it holds the "local" lwjgl3ify forgePatches jar
+# that Prism cannot re-download (see patches/me.eigenraven.lwjgl3ify.forgepatches.json).
+$instanceSkipDirs = @("natives")
 $mcSkipDirs = @(
     "backups", "cachedImages", "crash-reports", "journeymap",
     "logs", "saves", "screenshots", ".codegraph", ".omo", "falsepattern", "alexiil"
@@ -92,8 +94,8 @@ Get-ChildItem $InstanceDir -Force | ForEach-Object {
     }
 }
 
-# instance root dirs: patches  (rel = path under InstanceDir)
-foreach ($d in @("patches")) {
+# instance root dirs: patches + libraries (rel = path under InstanceDir)
+foreach ($d in @("patches", "libraries")) {
     $p = Join-Path $InstanceDir $d
     if (Test-Path $p) {
         $base = (Get-Item $p).FullName.TrimEnd('\')
