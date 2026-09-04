@@ -85,6 +85,11 @@
 config/mobsinfo/*.cache
 config/falsetweaks_userspecific.cfg
 
+!journeymap/
+!journeymap/config/
+!journeymap/config/*
+!journeymap/config/**
+
 optionsnf.txt
 options_skinport.txt
 !options.txt
