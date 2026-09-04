@@ -84,9 +84,9 @@
 
 config/mobsinfo/*.cache
 
-options.txt
 optionsnf.txt
 options_skinport.txt
+!options.txt
 settings.rtg
 usernamecache.json
 minetweaker.log
