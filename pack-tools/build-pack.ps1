@@ -58,7 +58,7 @@ $Output = [System.IO.Path]::GetFullPath($Output)
 # that Prism cannot re-download (see patches/me.eigenraven.lwjgl3ify.forgepatches.json).
 $instanceSkipDirs = @("natives")
 $mcSkipDirs = @(
-    "backups", "cachedImages", "crash-reports", "journeymap",
+    "backups", "cachedImages", "crash-reports",
     "logs", "saves", "screenshots", "shaderpacks", "texturepacks",
     ".codegraph", ".omo", "falsepattern", "alexiil"
 )
@@ -73,6 +73,13 @@ function Test-ShouldSkip {
     }
     foreach ($d in $mcSkipDirs) {
         if ($relPath -eq "minecraft/$d" -or $relPath.StartsWith("minecraft/$d/")) { return $true }
+    }
+    # journeymap: keep only config/ (theme/settings); drop per-world data, icon cache, etc.
+    if ($relPath -like "minecraft/journeymap*") {
+        if ($relPath -like "minecraft/journeymap/config/*" -or $relPath -eq "minecraft/journeymap/config") {
+            return $false
+        }
+        return $true
     }
     foreach ($p in $fileSkipPatterns) {
         if ([System.IO.Path]::GetFileName($relPath) -like $p) { return $true }
