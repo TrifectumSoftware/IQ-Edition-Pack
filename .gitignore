@@ -8,7 +8,6 @@
 
 !config/*
 !scripts/*
-!resourcepacks/*
 !server-resource-packs/*
 !pack-tools/*
 !.github/*
