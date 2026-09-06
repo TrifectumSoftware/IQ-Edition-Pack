@@ -102,6 +102,7 @@ OpenComputersMod*libjnlua*.dll
 *.dll
 
 *.bat
+!ensure-options.bat
 *.sh
 *.ser
 *.lnk
