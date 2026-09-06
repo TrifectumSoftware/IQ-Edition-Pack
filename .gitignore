@@ -94,6 +94,10 @@ config/falsetweaks_userspecific.cfg
 optionsnf.txt
 options_skinport.txt
 !options.txt
+knownkeys.txt
+localconfig.cfg
+config/localconfig.txt
+config/localconfig-example.txt
 settings.rtg
 usernamecache.json
 minetweaker.log
@@ -103,7 +107,6 @@ OpenComputersMod*libjnlua*.dll
 *.dll
 
 *.bat
-!ensure-options.bat
 *.sh
 *.ser
 *.lnk
